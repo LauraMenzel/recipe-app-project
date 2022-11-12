@@ -37,9 +37,15 @@
   }
 }
 
+header {
+  padding: 60px;
+  text-align: center;
+  background: #eb9650;
+  color: white;
+}
+
 .Layout-nav{
   text-align: center;
-color: black;
 margin: 0;
 }
 .Layout-ul {
@@ -47,9 +53,36 @@ margin: 0;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 .Layout-li {
   float: left;
+
+}
+.Layout-Link{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px 16px;
+}
+.Layout-Link:hover {
+  background-color: rgb(219, 109, 18);
+  color: black;
+}
+.Layout-Link.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.Layout-searchBar{
+   overflow: hidden;
+}
+
+.Layout-searchBar input[type=text]{
+  float: right;
+  padding: 6px;
+  /* border: none; */
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: 1px solid #ccc;
 }
